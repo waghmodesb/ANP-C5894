@@ -1,4 +1,8 @@
 package loop;
+/*
+  Write a program that prints the Fibonacci series up to a specified limit entered by the user.
+ However, skip printing numbers that are divisible by 3. Use the continue statement to skip such numbers.
+ */
 import java.util.Scanner;
 
 public class FibonaccisSeries {
