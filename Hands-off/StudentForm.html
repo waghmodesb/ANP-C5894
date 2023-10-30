@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Database</title>
+</head>
+<body>
+    <h1>Student Database</h1>
+
+    <!-- Form to Add a Student -->
+    <h2>Add Student</h2>
+    <form action="#" method="post">
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName" required><br><br>
+
+        <label for="studentID">Student ID:</label>
+        <input type="text" id="studentID" name="studentID" required><br><br>
+
+        <label for="studentGrade">Grade:</label>
+        <input type="text" id="studentGrade" name="studentGrade" required><br><br>
+
+        <input type="submit" value="Add Student">
+    </form>
+
+    <!-- Form to Search for a Student -->
+    <h2>Search for Student</h2>
+    <form action="#" method="get">
+        <label for="searchStudentID">Student ID:</label>
+        <input type="text" id="searchStudentID" name="searchStudentID" required><br><br>
+
+        <input type="submit" value="Search">
+    </form>
+
+    <!-- Student List -->
+    <h2>Student List</h2>
+    <table border="1">
+        <tr>
+            <th>Student Name</th>
+            <th>Student ID</th>
+            <th>Grade</th>
+        </tr>
+        <!-- Replace this with dynamic data fetched from a database -->
+        <tr>
+            <td>Raj</td>
+            <td>1001</td>
+            <td>A</td>
+        </tr>
+		 <!-- Replace this with dynamic data fetched from a database -->
+        <tr>
+            <td>Sanjay</td>
+            <td>1002</td>
+            <td>B+</td>
+        </tr>
+		 <!-- Replace this with dynamic data fetched from a database -->
+		<tr>
+            <td>Manas</td>
+            <td>1003</td>
+            <td>A+</td>
+        </tr>
+		 <!-- Replace this with dynamic data fetched from a database -->
+		<tr>
+            <td>Aishwarya</td>
+            <td>1004</td>
+            <td>B</td>
+        </tr>
+		 <!-- Replace this with dynamic data fetched from a database -->
+		<tr>
+            <td>Kalyani</td>
+            <td>1005</td>
+            <td>B+</td>
+        </tr>
+        <!-- End of dynamic data -->
+    </table>
+</body>
+</html>

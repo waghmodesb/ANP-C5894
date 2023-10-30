@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Styles Example</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Background color for the entire page */
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Internal CSS for the topics */
+        .topic {
+            color: blue;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <h1>CSS Styles Example</h1>
+
+    <div class="content">
+        <h2 class="topic">Inline CSS</h2>
+        <p>This is a paragraph with <span style="color: red;">inline CSS</span>. Inline styles are applied directly to individual elements.</p>
+
+        <h2 class="topic">Internal CSS</h2>
+        <p>This is a paragraph with <span style="color:LimeGreen;">internal CSS</span>. Internal styles are defined within the &lt;style&gt; tag in the &lt;head&gt; of the HTML document.</p>
+
+        <h2 class="topic">External CSS</h2>
+        <p>This is a paragraph with <span style="color:DeepPink;">external CSS</span>. External styles are defined in a separate CSS file (styles.css) and linked to the HTML document.</p>
+    </div>
+</body>
+</html>
+
